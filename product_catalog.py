@@ -69,4 +69,6 @@ for result in results:
 
 # DESIGN MEMO (write below in a comment):
 # 1. What core operations did you use (e.g., intersections, loops)? Why?
+#I used loops to get an input, either to get the preference or to know if the user wants to put another preference. I also used loops to change the product tags from a list to a set. I used intersection to match the product tag with the customer preferences. I used loops to append the product name and the number of matches into a new dictionary. 
 # 2. How might this code change if you had 1000+ products?
+# I believe that this work would also work if I had more than 1000 products, maybe use other data structures, but I think this code would only take longer to run and it would be fully optimized
